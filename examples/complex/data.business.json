@@ -1,0 +1,16 @@
+{
+  "applicant": {
+    "fullName": "王五",
+    "id": "ID-10086"
+  },
+  "org": { "dept": "产品部" },
+  "dates": { "start": "2026-07-01" },
+  "request": {
+    "reason": "申请更换工位至 B 区",
+    "budget": 5000
+  },
+  "flags": { "urgent": false, "notify": true },
+  "workspace": "desk",
+  "priority": "normal",
+  "approval": { "manager": "赵六", "signed": true }
+}

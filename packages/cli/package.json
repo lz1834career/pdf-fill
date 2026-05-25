@@ -1,0 +1,46 @@
+{
+  "name": "pdffill",
+  "version": "0.6.0",
+  "description": "CLI for listing, diagnosing, and filling PDF AcroForms",
+  "type": "module",
+  "bin": {
+    "pdffill": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean --external @pdffill/core",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@pdffill/core": "0.6.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pdf",
+    "acroform",
+    "cli",
+    "pdf-form",
+    "pdffill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdffill/pdffill.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/pdffill/pdffill/issues"
+  },
+  "homepage": "https://github.com/pdffill/pdffill/tree/main/packages/cli#readme"
+}

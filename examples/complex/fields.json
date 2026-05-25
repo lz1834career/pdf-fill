@@ -1,0 +1,90 @@
+[
+  {
+    "name": "reference_no",
+    "type": "text",
+    "readOnly": true
+  },
+  {
+    "name": "applicant.name",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "applicant.id_number",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "department",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "start_date",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "reason_multiline",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "budget_amount",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "is_urgent",
+    "type": "checkbox",
+    "readOnly": false,
+    "exportValues": [
+      "Yes",
+      "Off"
+    ]
+  },
+  {
+    "name": "notify_email",
+    "type": "checkbox",
+    "readOnly": false,
+    "exportValues": [
+      "Yes",
+      "Off"
+    ]
+  },
+  {
+    "name": "workspace_type",
+    "type": "radio",
+    "readOnly": false,
+    "options": [
+      "desk",
+      "hotdesk",
+      "remote"
+    ]
+  },
+  {
+    "name": "priority",
+    "type": "dropdown",
+    "readOnly": false,
+    "options": [
+      "low",
+      "normal",
+      "high",
+      "critical"
+    ]
+  },
+  {
+    "name": "approver_name",
+    "type": "text",
+    "readOnly": false
+  },
+  {
+    "name": "supervisor_signed",
+    "type": "checkbox",
+    "readOnly": false,
+    "exportValues": [
+      "Yes",
+      "Off"
+    ]
+  }
+]

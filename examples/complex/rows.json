@@ -1,0 +1,30 @@
+[
+  {
+    "applicant.name": "Alice",
+    "applicant.id_number": "A-1",
+    "department": "Sales",
+    "start_date": "2026-06-01",
+    "reason_multiline": "Row 0",
+    "budget_amount": 100,
+    "is_urgent": false,
+    "notify_email": true,
+    "workspace_type": "desk",
+    "priority": "low",
+    "approver_name": "M1",
+    "supervisor_signed": true
+  },
+  {
+    "applicant.name": "Bob",
+    "applicant.id_number": "B-2",
+    "department": "HR",
+    "start_date": "2026-06-02",
+    "reason_multiline": "Row 1",
+    "budget_amount": 200,
+    "is_urgent": true,
+    "notify_email": false,
+    "workspace_type": "remote",
+    "priority": "high",
+    "approver_name": "M2",
+    "supervisor_signed": false
+  }
+]

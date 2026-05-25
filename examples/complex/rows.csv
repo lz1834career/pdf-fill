@@ -1,0 +1,3 @@
+applicant.name,applicant.id_number,department,start_date,reason_multiline,budget_amount,is_urgent,notify_email,workspace_type,priority,approver_name,supervisor_signed
+Carol,C-3,Legal,2026-06-03,CSV row 0,300,false,true,hotdesk,normal,M3,true
+Dave,D-4,Ops,2026-06-04,CSV row 1,400,true,false,desk,critical,M4,false

@@ -1,0 +1,88 @@
+{
+  "type": "object",
+  "properties": {
+    "applicant.name": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "applicant.id_number": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "department": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "start_date": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "reason_multiline": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "budget_amount": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "is_urgent": {
+      "type": "boolean"
+    },
+    "notify_email": {
+      "type": "boolean"
+    },
+    "workspace_type": {
+      "type": "string",
+      "enum": [
+        "desk",
+        "hotdesk",
+        "remote"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "normal",
+        "high",
+        "critical"
+      ]
+    },
+    "approver_name": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "supervisor_signed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "applicant.name",
+    "applicant.id_number",
+    "department",
+    "start_date",
+    "reason_multiline",
+    "budget_amount",
+    "is_urgent",
+    "notify_email",
+    "workspace_type",
+    "priority",
+    "approver_name",
+    "supervisor_signed"
+  ],
+  "additionalProperties": false
+}

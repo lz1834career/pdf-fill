@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+examples/simple/template.pdf
+examples/simple/filled.pdf
+examples/complex/template-complex.pdf
+examples/complex/filled.pdf
+examples/complex/filled-flat.pdf
+examples/complex/filled-zh.pdf
+examples/complex/filled-business.pdf
+examples/complex/out/
+examples/complex/out-csv/
+examples/complex/out-verify/
+examples/complex/out-jsonl/
+examples/complex/manifest.jsonl

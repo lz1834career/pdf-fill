@@ -1,0 +1,28 @@
+{
+  "name": "pdf-fill",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @pdffill/core && npm run build -w pdffill",
+    "test": "vitest run",
+    "example:gen": "node examples/simple/generate-template.mjs",
+    "example:complex": "node examples/complex/generate-template.mjs",
+    "example:scaffold": "node packages/cli/dist/index.js scaffold examples/complex/template-complex.pdf -o examples/complex/data.json --fields-output examples/complex/fields.json --with-mapping --business-output examples/complex/data.business.json --mapping-output examples/complex/mapping.json --schema-output examples/complex/schema.json",
+    "example:pipeline": "npm run example:complex && npm run build && node packages/cli/dist/index.js run examples/complex/template-complex.pdf examples/complex/data.json -o examples/complex/filled.pdf",
+    "example:run-business": "node packages/cli/dist/index.js run examples/complex/template-complex.pdf examples/complex/data.business.json -o examples/complex/filled-business.pdf --mapping examples/complex/mapping.json",
+    "example:diff": "npm run build && node packages/cli/dist/index.js diff examples/complex/template-complex.pdf examples/complex/data.json --config examples/complex/pdffill.json",
+    "example:run-diff": "npm run build && node packages/cli/dist/index.js run examples/complex/template-complex.pdf examples/complex/data.json -o examples/complex/filled.pdf --config examples/complex/pdffill.json --diff",
+    "example:batch-jsonl": "npm run build && node packages/cli/dist/index.js batch examples/complex/template-complex.pdf examples/complex/rows.json -o examples/complex/out --manifest examples/complex/manifest.jsonl --manifest-format jsonl --config examples/complex/pdffill.json",
+    "test:watch": "vitest",
+    "typecheck": "npm run typecheck -w @pdffill/core && npm run typecheck -w pdffill",
+    "pack:check": "npm run build && npm pack -w @pdffill/core --dry-run && npm pack -w pdffill --dry-run",
+    "publish:core": "npm run build -w @pdffill/core && npm publish -w @pdffill/core --access public",
+    "publish:cli": "npm run build -w pdffill && npm publish -w pdffill --access public"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  }
+}

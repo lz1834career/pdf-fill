@@ -1,0 +1,14 @@
+{
+  "applicant.name": "",
+  "applicant.id_number": "",
+  "department": "",
+  "start_date": "",
+  "reason_multiline": "",
+  "budget_amount": "",
+  "is_urgent": false,
+  "notify_email": false,
+  "workspace_type": "desk",
+  "priority": "low",
+  "approver_name": "",
+  "supervisor_signed": false
+}

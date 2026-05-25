@@ -1,0 +1,14 @@
+{
+  "applicant.fullName": "applicant.name",
+  "applicant.id": "applicant.id_number",
+  "org.dept": "department",
+  "dates.start": "start_date",
+  "request.reason": "reason_multiline",
+  "request.budget": "budget_amount",
+  "flags.urgent": "is_urgent",
+  "flags.notify": "notify_email",
+  "workspace": "workspace_type",
+  "priority": "priority",
+  "approval.manager": "approver_name",
+  "approval.signed": "supervisor_signed"
+}
