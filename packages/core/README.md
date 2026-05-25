@@ -15,6 +15,6 @@ const { pdf } = await fillForm(template, { name: "Jane" });
 await writeFile("filled.pdf", pdf);
 ```
 
-Full API: [docs/API.md](https://github.com/pdffill/pdffill/blob/main/docs/API.md) (update repo URL if yours differs).
+Full API: [docs/API.md](https://github.com/lz1834career/pdf-fill/blob/main/docs/API.md).
 
 CLI: [`pdffill`](https://www.npmjs.com/package/pdffill).

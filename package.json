@@ -1,6 +1,14 @@
 {
   "name": "pdf-fill",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lz1834career/pdf-fill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lz1834career/pdf-fill/issues"
+  },
+  "homepage": "https://github.com/lz1834career/pdf-fill#readme",
   "workspaces": [
     "packages/*"
   ],

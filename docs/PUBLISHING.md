@@ -9,9 +9,10 @@ Monorepo with two publishable packages:
 
 ## Before first publish
 
-1. **Replace repository URLs** in `packages/core/package.json` and `packages/cli/package.json` (`repository`, `bugs`, `homepage`) and in package `README.md` links if your Git remote is not `github.com/pdffill/pdffill`.
-2. Confirm npm package names are free: `pdffill`, `@pdffill/core` (and that your account can publish under scope `@pdffill`).
-3. `npm login` (enable 2FA on npm if required).
+Repository: [github.com/lz1834career/pdf-fill](https://github.com/lz1834career/pdf-fill) (configured in package `repository` / `homepage` fields).
+
+1. Confirm npm package names are free: `pdffill`, `@pdffill/core` (and that your account can publish under scope `@pdffill`).
+2. `npm login` (enable 2FA on npm if required).
 
 Each publishable package includes:
 

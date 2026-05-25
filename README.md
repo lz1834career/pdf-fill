@@ -2,6 +2,8 @@
 
 纯 JavaScript 的 PDF AcroForm 填充工具链（[pdf-lib](https://pdf-lib.js.org/)），无需 pdftk。支持字段发现、诊断、填前 diff、填充与校验；默认输出**可编辑** PDF。
 
+**Repository:** [github.com/lz1834career/pdf-fill](https://github.com/lz1834career/pdf-fill)
+
 ## Features
 
 - **CLI**：`doctor` · `list` · `scaffold` · `diff` · `fill` · `run` · `verify` · `batch`
@@ -18,8 +20,8 @@
 npm install -g pdffill
 
 # 或从源码
-git clone <your-repo-url>
-cd pdffill
+git clone https://github.com/lz1834career/pdf-fill.git
+cd pdf-fill
 npm install && npm run build
 ```
 

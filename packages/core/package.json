@@ -47,13 +47,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pdffill/pdffill.git",
+    "url": "git+https://github.com/lz1834career/pdf-fill.git",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/pdffill/pdffill/issues"
+    "url": "https://github.com/lz1834career/pdf-fill/issues"
   },
-  "homepage": "https://github.com/pdffill/pdffill/tree/main/packages/core#readme",
+  "homepage": "https://github.com/lz1834career/pdf-fill/tree/main/packages/core#readme",
   "publishConfig": {
     "access": "public"
   }
